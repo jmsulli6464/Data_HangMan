@@ -39,7 +39,6 @@ def getGame():
 
 def playgame():
     answer, game = getGame()
-    print(answer)
     playRounds(answer, game)
 
 def check(answer, strikes, win, lose, guessed):
